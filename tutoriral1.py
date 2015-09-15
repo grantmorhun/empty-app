@@ -13,8 +13,9 @@ black = Color(0x000000, 1.0)
 # Define a line style that is a thin (1 pixel) wide black line
 thinline = LineStyle(1, black)
 # A graphics asset that represents a rectangle
-rectangle = RectangleAsset(100000,200000, thinline, blue)
 polygon = PolygonAsset([(100,150), (300,20), (1,2), (1000,200), (3451,752)], thinline, red)
+rectangle = RectangleAsset(100000,200000, thinline, blue)
+
 
 # Now display a rectangle
 Sprite(polygon)
