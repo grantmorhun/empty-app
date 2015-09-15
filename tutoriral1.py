@@ -11,7 +11,7 @@ blue = Color(0x0000ff, 1.0)
 black = Color(0x000000, 1.0)
 
 
-thinline = LineStyle(3, orange)
+thinline = LineStyle(2,orange)
 
 rectangle = RectangleAsset(50, 20, thinline, blue)
 
