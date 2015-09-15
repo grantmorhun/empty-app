@@ -16,7 +16,7 @@ thinline = LineStyle(1, black)
 rectangle = RectangleAsset(50, 20, thinline, blue)
 
 
-Sprite(circle)
+Sprite(rectangle)
 
 myapp = App()
 myapp.run()
