@@ -14,9 +14,9 @@ black = Color(0x000000, 1.0)
 thinline = LineStyle(1,black)
 
 Ellipse = EllipseAsset(100, 20, thinline, blue)
-Sprite(Ellipse)
+Sprite(Ellipse, (100,100))
 Polygon = PolygonAsset(100, 20, thinline, red)
-Sprite(polygon)
+Sprite(Polygon)
 
 
 myapp = App()
