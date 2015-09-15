@@ -12,12 +12,12 @@ black = Color(0x000000, 1.0)
 
 
 thinline = LineStyle(1,black)
-
+Sprite(ellipse)
 Ellipse = EllipseAsset(100, 200, thinline, blue)
 Sprite(ellipse)
 Ellipse = EllipseAsset(40, 10, thinline, blue)
 
-Sprite(ellipse)
+
 
 myapp = App()
 myapp.run()
