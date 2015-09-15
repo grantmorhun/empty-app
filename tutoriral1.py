@@ -13,7 +13,7 @@ black = Color(0x000000, 1.0)
 # Define a line style that is a thin (1 pixel) wide black line
 thinline = LineStyle(1, black)
 # A graphics asset that represents a rectangle
-polygon = PolygonAsset(100, thinline, blue)
+polygon = PolygonAsset(100, blue)
 
 # Now display a rectangle
 Sprite(polygon)
