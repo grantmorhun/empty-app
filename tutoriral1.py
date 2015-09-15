@@ -13,10 +13,10 @@ black = Color(0x000000, 1.0)
 # Define a line style that is a thin (1 pixel) wide black line
 thinline = LineStyle(1, black)
 # A graphics asset that represents a rectangle
-rectangle = RectangleAsset(50, 20, thinline, blue)
+polygon = PolygonAsset(50, 20, thinline, blue)
 
 # Now display a rectangle
-Sprite(rectangle)
+Sprite(polygon)
 
 myapp = App()
 myapp.run()
