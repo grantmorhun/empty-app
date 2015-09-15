@@ -14,7 +14,7 @@ black = Color(0x000000, 1.0)
 thinline = LineStyle(1, black)
 # A graphics asset that represents a rectangle
 polygon = PolygonAsset([(100,150), (300,20), (1,2), (1000,200), (3451,752)], thinline, red)
-rectangle = RectangleAsset(100000,200000, thinline, blue)
+rectangle = RectangleAsset(100000,200000, thinline, red)
 
 
 # Now display a rectangle
